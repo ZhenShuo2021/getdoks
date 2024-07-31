@@ -31,7 +31,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build # 或者直接使用 `hugo`，視你的 setup 而定
+        run: hugo --environment production
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
