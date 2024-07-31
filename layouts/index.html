@@ -21,7 +21,10 @@
 {{ define "sidebar-prefooter" }}
   {{ if site.Params.doks.backgroundDots -}}
   <div class="d-flex justify-content-start">
-    <div class="bg-dots"></div>
+    <figure>
+      <img src="1.jpg" alt="Elephant at sunset" />
+      <figcaption>An elephant at sunset</figcaption>
+    </figure>
   </div>
   {{ end -}}
   {{ if eq $.Site.Language.LanguageName "English" }}

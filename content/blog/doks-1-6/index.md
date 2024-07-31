@@ -19,6 +19,12 @@ seo:
   noindex: false # false (default) or true
 ---
 
+
+<lite-youtube videoid="ogfYd705cRs" playlabel="Play: Keynote (Google I/O '18)"></lite-youtube>
+
+{{< youtube 0RKpf3rK57I >}}
+
+
 Doks 1.6 is out! This release includes a new Hugo requirement, an improved `scripts` setup, new development tools, and more.
 
 To upgrade an existing project, see the [Upgrade Doks](/docs/start-here/upgrade-doks/) guide.

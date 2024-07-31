@@ -152,3 +152,5 @@ footer = "Brought to you by <a class=\"text-muted\" href=\"https://gethyas.com/\
     newsArticle = [] # NewsArticle sections
     blogPosting = ["blog"] # BlogPosting sections
     product = [] # Product sections
+
+customCSS = ["scss/_variables-custom.scss"]
