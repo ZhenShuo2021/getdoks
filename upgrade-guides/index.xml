@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Migration Guides on Doks</title>
+    <link>https://a4.zsl0621.cc/upgrade-guides/</link>
+    <description>Recent content in Migration Guides on Doks</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2020-2024 Hyas</copyright>
+    <lastBuildDate>Fri, 22 Sep 2023 16:15:46 +0200</lastBuildDate>
+    <atom:link href="https://a4.zsl0621.cc/upgrade-guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Upgrade to Doks v1</title>
+      <link>https://a4.zsl0621.cc/upgrade-guides/upgrade-to-v1/</link>
+      <pubDate>Fri, 22 Sep 2023 16:15:46 +0200</pubDate>
+      <guid>https://a4.zsl0621.cc/upgrade-guides/upgrade-to-v1/</guid>
+      <description>This guide will help you migrate from Doks v0.5 to Doks v1.&#xA;Upgrade Doks You can update your project by following the steps below.</description>
+    </item>
+  </channel>
+</rss>
