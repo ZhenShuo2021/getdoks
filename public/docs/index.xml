@@ -1,1 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Docs on Doks</title><link>https://a4.zsl0621.cc/docs/</link><description>Recent content in Docs on Doks</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Hyas</copyright><lastBuildDate/><atom:link href="https://a4.zsl0621.cc/docs/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docs on ZSL Docs</title>
+    <link>http://localhost:1313/docs/</link>
+    <description>Recent content in Docs on ZSL Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 ZSL Docs</copyright>
+    <lastBuildDate>Fri, 14 Jun 2024 02:45:40 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rician Fading生成方式，包含Emil Björnson大師的正解</title>
+      <link>http://localhost:1313/docs/rician-fading%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F%E5%8C%85%E5%90%ABemil-bj%C3%B6rnson%E5%A4%A7%E5%B8%AB%E7%9A%84%E6%AD%A3%E8%A7%A3/</link>
+      <pubDate>Fri, 14 Jun 2024 02:45:40 +0800</pubDate>
+      <guid>http://localhost:1313/docs/rician-fading%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F%E5%8C%85%E5%90%ABemil-bj%C3%B6rnson%E5%A4%A7%E5%B8%AB%E7%9A%84%E6%AD%A3%E8%A7%A3/</guid>
+      <description>先說結論：&#xA;method 1是 Emil Björnson 回覆的可信度最高。 method 2/3 少了 Emil 說的 LOS path random phase，而 method 2/3 不同處是 NLOS path的 以及分母的 。 method 4/5 應該是不同的 formatting 方式。 Method 1: Emil Björnson 來源</description>
+    </item>
+    <item>
+      <title>Intro</title>
+      <link>http://localhost:1313/docs/intro/</link>
+      <pubDate>Wed, 02 Aug 2000 16:27:43 +0800</pubDate>
+      <guid>http://localhost:1313/docs/intro/</guid>
+      <description>這是一個起始頁面，封面是東雲うみ。</description>
+    </item>
+  </channel>
+</rss>

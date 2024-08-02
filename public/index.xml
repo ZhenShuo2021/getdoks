@@ -1,2 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Build an amazing docs site on Doks</title><link>https://a4.zsl0621.cc/</link><description>Recent content in Build an amazing docs site on Doks</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Hyas</copyright><lastBuildDate>Thu, 16 May 2024 09:03:10 +0200</lastBuildDate><atom:link href="https://a4.zsl0621.cc/index.xml" rel="self" type="application/rss+xml"/><item><title>Doks 1.6</title><link>https://a4.zsl0621.cc/blog/doks-1-6/</link><pubDate>Thu, 16 May 2024 09:03:10 +0200</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-6/</guid><description>Doks 1.6 is out! This release includes a new Hugo requirement, an improved &lt;code>scripts&lt;/code> setup, new development tools, and more.</description></item><item><title>Doks 1.4</title><link>https://a4.zsl0621.cc/blog/doks-1-4/</link><pubDate>Sat, 02 Mar 2024 12:13:08 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-4/</guid><description>Doks 1.4 is now available! This release includes a new shortcode for link cards, improved sidebar navigation, and more.</description></item><item><title>Doks 1.3</title><link>https://a4.zsl0621.cc/blog/doks-1-3/</link><pubDate>Wed, 17 Jan 2024 09:03:26 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-3/</guid><description>Doks 1.3 — our first release of the new year — is here! This release includes restructured dependencies, deduplicated Bootstrap variables, and more.</description></item><item><title>Doks 1.2</title><link>https://a4.zsl0621.cc/blog/doks-1-2/</link><pubDate>Sat, 23 Dec 2023 14:33:10 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-2/</guid><description>Doks 1.2 is out! This release features support for diagrams, extended code blocks formatting, and more.</description></item><item><title>Doks 1.0</title><link>https://a4.zsl0621.cc/blog/doks-1/</link><pubDate>Tue, 12 Sep 2023 20:20:15 +0200</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1/</guid><description>Doks 1.0 is here! This release is a restructure release, making Doks more robust, reliable, and flexible.</description></item><item><title>Getting Started</title><link>https://a4.zsl0621.cc/docs/start-here/getting-started/</link><pubDate>Tue, 12 Sep 2023 12:07:48 +0200</pubDate><guid>https://a4.zsl0621.cc/docs/start-here/getting-started/</guid><description>Doks is a full-featured documentation theme built on top of the Hyas framework. Here you&amp;rsquo;ll find guides, resources, and references to help you build with Doks.</description></item><item><title>Installation</title><link>https://a4.zsl0621.cc/docs/start-here/installation/</link><pubDate>Mon, 13 May 2024 20:51:12 +0200</pubDate><guid>https://a4.zsl0621.cc/docs/start-here/installation/</guid><description>Doks is a full-featured documentation theme built on top of the Hyas framework. This guide will help you get started with a new project.</description></item><item><title>Upgrade Doks</title><link>https://a4.zsl0621.cc/docs/start-here/upgrade-doks/</link><pubDate>Fri, 22 Sep 2023 16:15:46 +0200</pubDate><guid>https://a4.zsl0621.cc/docs/start-here/upgrade-doks/</guid><description>This guide covers how to update your version of Doks and related dependencies, how to learn what has changed from one version to the next, and how to understand Doks&amp;rsquo; versioning system and corresponding documentation updates.</description></item><item><title>Upgrade to Doks v1</title><link>https://a4.zsl0621.cc/upgrade-guides/upgrade-to-v1/</link><pubDate>Fri, 22 Sep 2023 16:15:46 +0200</pubDate><guid>https://a4.zsl0621.cc/upgrade-guides/upgrade-to-v1/</guid><description>This guide will help you migrate from Doks v0.5 to Doks v1.
-Upgrade Doks You can update your project by following the steps below.</description></item><item><title>Project Structure</title><link>https://a4.zsl0621.cc/docs/basics/project-structure/</link><pubDate>Fri, 22 Sep 2023 12:17:19 +0200</pubDate><guid>https://a4.zsl0621.cc/docs/basics/project-structure/</guid><description>This guide will show you how a Doks project is organized and what the different files in your project do.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ZSL Docs</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on ZSL Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 ZSL Docs</copyright>
+    <lastBuildDate>Sun, 28 Jul 2024 22:52:57 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>TrueNas SMB 簽名及加密設定</title>
+      <link>http://localhost:1313/docs/nas/truenas-smb-security/</link>
+      <pubDate>Mon, 06 May 2024 00:45:10 +0800</pubDate>
+      <guid>http://localhost:1313/docs/nas/truenas-smb-security/</guid>
+      <description>網路上基礎設定的教學不少，這裡補足安全方面的設定。&#xA;TrueNAS 預設沒有開啟 SMB 簽名及加密，新版又取消了 auxiliary parameters 欄位，所以不要懷疑自己找不到，搞老半天就這個能用。&#xA;修改方式 cli 三個字要打出來。&#xA;cli service smb update smb_options=&amp;#34;server signing = required\nserver smb encrypt = required\nclient smb encrypt = required\ninherit owner=yes\ninherit permissions=yes&amp;#34;&#xD;inherit owner/permissions 是繼承父資料夾的擁有者/權限。另外，改 /etc/smb4.</description>
+    </item>
+    <item>
+      <title>TrueNAS Docker</title>
+      <link>http://localhost:1313/docs/nas/truenas-docker/</link>
+      <pubDate>Sun, 28 Jul 2024 22:52:57 +0800</pubDate>
+      <guid>http://localhost:1313/docs/nas/truenas-docker/</guid>
+      <description>前言 弄完基礎的檔案分享設定之後就是玩 docker，本文列出幾個常見的 docker-compose.yml 以便一鍵部屬。&#xA;還有個好消息，TrueNAS 在 2024/10 月版本將要放棄 k3s 改用 docker，這裡先放上幾個 docker-compose.yml，對相簿選擇障礙的可以看這裡。&#xA;Immich 版本：v1.108.0&#xA;這是最推薦的自架相簿，有些人可能會擔心他會破壞資料夾結構，尤其是攝影師，不過使用外部庫掛載就沒有這個問題。&#xA;由於現在還在非常積極發展的階段，建議掛載後加上:ro唯獨以免誤刪。&#xA;docker-compose.yml: 改掛載路徑就可用 name: immich services: immich-server: container_name: immich_server image: ghcr.</description>
+    </item>
+    <item>
+      <title>Cloudflare Tunnel</title>
+      <link>http://localhost:1313/docs/nas/cloudflare-tunnel-ddns-guide/</link>
+      <pubDate>Wed, 08 May 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/nas/cloudflare-tunnel-ddns-guide/</guid>
+      <description>紀錄把一台破電腦裝成 NAS 的過程</description>
+    </item>
+    <item>
+      <title>Doks 1.6</title>
+      <link>http://localhost:1313/blog/doks-1-6/</link>
+      <pubDate>Thu, 16 May 2024 09:03:10 +0200</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-6/</guid>
+      <description>Doks 1.6 is out! This release includes a new Hugo requirement, an improved &lt;code&gt;scripts&lt;/code&gt; setup, new development tools, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.4</title>
+      <link>http://localhost:1313/blog/doks-1-4/</link>
+      <pubDate>Sat, 02 Mar 2024 12:13:08 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-4/</guid>
+      <description>Doks 1.4 is now available! This release includes a new shortcode for link cards, improved sidebar navigation, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.3</title>
+      <link>http://localhost:1313/blog/doks-1-3/</link>
+      <pubDate>Wed, 17 Jan 2024 09:03:26 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-3/</guid>
+      <description>Doks 1.3 — our first release of the new year — is here! This release includes restructured dependencies, deduplicated Bootstrap variables, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.2</title>
+      <link>http://localhost:1313/blog/doks-1-2/</link>
+      <pubDate>Sat, 23 Dec 2023 14:33:10 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-2/</guid>
+      <description>Doks 1.2 is out! This release features support for diagrams, extended code blocks formatting, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.0</title>
+      <link>http://localhost:1313/blog/doks-1/</link>
+      <pubDate>Tue, 12 Sep 2023 20:20:15 +0200</pubDate>
+      <guid>http://localhost:1313/blog/doks-1/</guid>
+      <description>Doks 1.0 is here! This release is a restructure release, making Doks more robust, reliable, and flexible.</description>
+    </item>
+    <item>
+      <title>基礎設定</title>
+      <link>http://localhost:1313/docs/nas/blowfish/settings/</link>
+      <pubDate>Mon, 01 Jul 2024 12:01:01 +0800</pubDate>
+      <guid>http://localhost:1313/docs/nas/blowfish/settings/</guid>
+      <description>Blowfish 是高度客製化的主題，一進去 config 也是多到眼花撩亂，這邊稍微紀錄一下本站的設定。&#xA;0. 安裝 如果要安裝舊版會發現用 homebrew 會想罵髒話，這裡放上安裝指定版本的方法，其中 @latest 改成 @v0.129.0。&#xA;1. 基本知識 Hugo 對於渲染設定都放在 assets 以及 layouts 資料夾中，如果主資料夾有檔案就會使用主資料夾的檔案進行渲染，反之用 theme 資料夾的對應檔案夾進行渲染。</description>
+    </item>
+    <item>
+      <title>進階客製化</title>
+      <link>http://localhost:1313/docs/nas/blowfish/advance-custom/</link>
+      <pubDate>Mon, 01 Jul 2024 12:45:01 +0800</pubDate>
+      <guid>http://localhost:1313/docs/nas/blowfish/advance-custom/</guid>
+      <description>此客製化基於 hugo blowfish theme 完成。&#xA;大部分的程式都由 GPT 完成，偉哉 GPT。&#xA;1. 超連結 游標移動到連結時變色+底線。範例&#xA;在assets/css/custom.css新增以下：&#xA;.article-content a { color: rgb(65, 105, 225); /* 使用淡藍色 */ } /* 懸停時底線改為粗線並增加距離 */ .</description>
+    </item>
+  </channel>
+</rss>

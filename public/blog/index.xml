@@ -1,1 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Doks</title><link>https://a4.zsl0621.cc/blog/</link><description>Recent content in Blog on Doks</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2020-2024 Hyas</copyright><lastBuildDate>Thu, 16 May 2024 09:03:10 +0200</lastBuildDate><atom:link href="https://a4.zsl0621.cc/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Doks 1.6</title><link>https://a4.zsl0621.cc/blog/doks-1-6/</link><pubDate>Thu, 16 May 2024 09:03:10 +0200</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-6/</guid><description>Doks 1.6 is out! This release includes a new Hugo requirement, an improved &lt;code>scripts&lt;/code> setup, new development tools, and more.</description></item><item><title>Doks 1.4</title><link>https://a4.zsl0621.cc/blog/doks-1-4/</link><pubDate>Sat, 02 Mar 2024 12:13:08 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-4/</guid><description>Doks 1.4 is now available! This release includes a new shortcode for link cards, improved sidebar navigation, and more.</description></item><item><title>Doks 1.3</title><link>https://a4.zsl0621.cc/blog/doks-1-3/</link><pubDate>Wed, 17 Jan 2024 09:03:26 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-3/</guid><description>Doks 1.3 — our first release of the new year — is here! This release includes restructured dependencies, deduplicated Bootstrap variables, and more.</description></item><item><title>Doks 1.2</title><link>https://a4.zsl0621.cc/blog/doks-1-2/</link><pubDate>Sat, 23 Dec 2023 14:33:10 +0100</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1-2/</guid><description>Doks 1.2 is out! This release features support for diagrams, extended code blocks formatting, and more.</description></item><item><title>Doks 1.0</title><link>https://a4.zsl0621.cc/blog/doks-1/</link><pubDate>Tue, 12 Sep 2023 20:20:15 +0200</pubDate><guid>https://a4.zsl0621.cc/blog/doks-1/</guid><description>Doks 1.0 is here! This release is a restructure release, making Doks more robust, reliable, and flexible.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog on ZSL Docs</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content in Blog on ZSL Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright (c) 2024 ZSL Docs</copyright>
+    <lastBuildDate>Thu, 16 May 2024 09:03:10 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Doks 1.6</title>
+      <link>http://localhost:1313/blog/doks-1-6/</link>
+      <pubDate>Thu, 16 May 2024 09:03:10 +0200</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-6/</guid>
+      <description>Doks 1.6 is out! This release includes a new Hugo requirement, an improved &lt;code&gt;scripts&lt;/code&gt; setup, new development tools, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.4</title>
+      <link>http://localhost:1313/blog/doks-1-4/</link>
+      <pubDate>Sat, 02 Mar 2024 12:13:08 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-4/</guid>
+      <description>Doks 1.4 is now available! This release includes a new shortcode for link cards, improved sidebar navigation, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.3</title>
+      <link>http://localhost:1313/blog/doks-1-3/</link>
+      <pubDate>Wed, 17 Jan 2024 09:03:26 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-3/</guid>
+      <description>Doks 1.3 — our first release of the new year — is here! This release includes restructured dependencies, deduplicated Bootstrap variables, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.2</title>
+      <link>http://localhost:1313/blog/doks-1-2/</link>
+      <pubDate>Sat, 23 Dec 2023 14:33:10 +0100</pubDate>
+      <guid>http://localhost:1313/blog/doks-1-2/</guid>
+      <description>Doks 1.2 is out! This release features support for diagrams, extended code blocks formatting, and more.</description>
+    </item>
+    <item>
+      <title>Doks 1.0</title>
+      <link>http://localhost:1313/blog/doks-1/</link>
+      <pubDate>Tue, 12 Sep 2023 20:20:15 +0200</pubDate>
+      <guid>http://localhost:1313/blog/doks-1/</guid>
+      <description>Doks 1.0 is here! This release is a restructure release, making Doks more robust, reliable, and flexible.</description>
+    </item>
+  </channel>
+</rss>

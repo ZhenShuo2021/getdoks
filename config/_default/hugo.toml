@@ -1,4 +1,4 @@
-title = "Doks"
+title = "ZSL Docs"
 baseurl = "http://localhost/"
 canonifyURLs = false
 disableAliases = true
@@ -7,7 +7,7 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+languageCode = "zh-TW"
 paginate = 20
 rssLimit = 10
 summarylength = 20 # 70 (default)
@@ -17,7 +17,7 @@ defaultContentLanguage = "en"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2024 ZSL Docs"
 
 [build.buildStats]
   enable = true

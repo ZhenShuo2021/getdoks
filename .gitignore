@@ -1,4 +1,6 @@
 .DS_Store
+start.app
+start.scpt
 .env
 .netlify
 .hugo_build.lock

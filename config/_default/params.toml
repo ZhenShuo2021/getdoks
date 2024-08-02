@@ -20,8 +20,8 @@ footer = "Brought to you by <a class=\"text-muted\" href=\"https://gethyas.com/\
 # Add-ons
 [add_ons]
   carbonAds = false # false (default) or true
-  ethicalAds = true # false (default) or true
-  docSearch = true # false (default) or true
+  ethicalAds = false # false (default) or true
+  docSearch = false # false (default) or true
   plausibleDomain = "getdoks.org" # "example.com" (default)
   keila = false # false (default) or true
 
@@ -41,7 +41,7 @@ footer = "Brought to you by <a class=\"text-muted\" href=\"https://gethyas.com/\
   navBarButtonText = "Visit gethyas.com"
 
   # FlexSearch
-  flexSearch = false # true (default) or false
+  flexSearch = true # true (default) or false
   searchExclKinds = [] # list of page kinds to exclude from search indexing (e.g. ["home", "taxonomy", "term"] )
   searchExclTypes = [] # list of content types to exclude from search indexing (e.g. ["blog", "docs", "legal", "contributors", "categories"])
   showSearch = [] # [] (all pages, default) or homepage (optionally) and list of sections (e.g. ["homepage", "blog", "guides"])
@@ -53,7 +53,7 @@ footer = "Brought to you by <a class=\"text-muted\" href=\"https://gethyas.com/\
   searchLimit = 99 # 0 (no limit, default) or natural number
 
   # Global alert
-  alert = true # false (default) or true
+  alert = false # false (default) or true
   alertDismissable = true # true (default) or false
 
   # Bootstrap
