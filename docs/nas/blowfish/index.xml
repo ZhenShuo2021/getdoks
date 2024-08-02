@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo Blowfish on ZSL Docs</title><link>https://a4.zsl0621.cc/docs/nas/blowfish/</link><description>Recent content in Hugo Blowfish on ZSL Docs</description><generator>Hugo</generator><language>en</language><copyright>Copyright (c) 2024 ZSL Docs</copyright><lastBuildDate>Sun, 28 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://a4.zsl0621.cc/docs/nas/blowfish/index.xml" rel="self" type="application/rss+xml"/><item><title>基礎設定</title><link>https://a4.zsl0621.cc/docs/nas/blowfish/settings/</link><pubDate>Mon, 01 Jul 2024 12:01:01 +0800</pubDate><guid>https://a4.zsl0621.cc/docs/nas/blowfish/settings/</guid><description>Blowfish 是高度客製化的主題，一進去 config 也是多到眼花撩亂，這邊稍微紀錄一下本站的設定。
+0. 安裝 如果要安裝舊版會發現用 homebrew 會想罵髒話，這裡放上安裝指定版本的方法，其中 @latest 改成 @v0.129.0。
+1. 基本知識 Hugo 對於渲染設定都放在 assets 以及 layouts 資料夾中，如果主資料夾有檔案就會使用主資料夾的檔案進行渲染，反之用 theme 資料夾的對應檔案夾進行渲染。</description></item><item><title>進階客製化</title><link>https://a4.zsl0621.cc/docs/nas/blowfish/advance-custom/</link><pubDate>Mon, 01 Jul 2024 12:45:01 +0800</pubDate><guid>https://a4.zsl0621.cc/docs/nas/blowfish/advance-custom/</guid><description>此客製化基於 hugo blowfish theme 完成。
+大部分的程式都由 GPT 完成，偉哉 GPT。
+1. 超連結 游標移動到連結時變色+底線。範例
+在assets/css/custom.css新增以下：
+.article-content a { color: rgb(65, 105, 225); /* 使用淡藍色 */ } /* 懸停時底線改為粗線並增加距離 */ .</description></item><item><title>問題修復</title><link>https://a4.zsl0621.cc/docs/nas/blowfish/bug-fix/</link><pubDate>Mon, 01 Jul 2024 12:09:01 +0800</pubDate><guid>https://a4.zsl0621.cc/docs/nas/blowfish/bug-fix/</guid><description>此客製化基於 hugo blowfish theme 完成。
+大部分的程式都由 GPT 完成，偉哉 GPT。
+1. 標籤與分類分別顯示 這超麻煩不過改完後很滿意。我應該是唯一一個修好他的人。
+把 partials/badge.html 改成 &amp;lt;span class=&amp;#34;badge badge-tag border border-primary-600 text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&amp;#34;&amp;gt; {{ .</description></item></channel></rss>
